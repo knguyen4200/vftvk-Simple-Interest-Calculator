@@ -30,6 +30,11 @@ function checkData()
     if (principalValue.value <= 0){
         alert("Enter a positive number");
         principalValue.focus();
+        return False;
     }
+    
+    compute();
+    return True;
+    
 
 }
